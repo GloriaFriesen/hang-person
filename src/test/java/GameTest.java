@@ -1,5 +1,8 @@
 import org.junit.*;
 import static org.junit.Assert.*;
+import java.util.List;
+import java.util.ArrayList;
+
 
 public class GameTest {
 
@@ -13,5 +16,13 @@ public class GameTest {
   public void newGame_getWord_cat() {
     Game testGame = new Game("cat");
     assertEquals("cat", testGame.getWord());
+  }
+
+  @Test
+  public void newGame_getArrayListAnswerLetters_ArrayList() {
+    Game testGame = new Game("cat");
+    ArrayList<String> expectedOutput = new ArrayList<String>();
+    expectedOutput.add("cat");
+    assertEquals(expectedOutput, testGame.getAnswerLetters());
   }
 }
