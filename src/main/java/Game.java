@@ -20,4 +20,9 @@ public class Game {
     return stringAnswerLetters;
   }
 
+  public String[] splitWord() {
+    String[] letters = mWord.split("");
+    return letters;
+  }
+
 }
