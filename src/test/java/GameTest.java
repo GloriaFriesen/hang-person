@@ -8,4 +8,10 @@ public class GameTest {
     Game testGame = new Game("cat");
     assertEquals(true, testGame instanceof Game);
   }
+
+  @Test
+  public void newGame_getWord_cat() {
+    Game testGame = new Game("cat");
+    assertEquals("cat", testGame.getWord());
+  }
 }
