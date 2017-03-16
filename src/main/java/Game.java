@@ -5,7 +5,6 @@ public class Game {
   private String mWord;
 
 
-
   public Game(String word) {
     mWord = word;
   }
@@ -17,7 +16,7 @@ public class Game {
 
   public ArrayList<String> getAnswerLetters() {
     ArrayList<String> stringAnswerLetters = new ArrayList<String>();
-    stringAnswerLetters.add("");
+    stringAnswerLetters.add(mWord);
     return stringAnswerLetters;
   }
 

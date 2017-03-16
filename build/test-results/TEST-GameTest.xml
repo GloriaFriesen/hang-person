@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GameTest" tests="3" skipped="0" failures="1" errors="0" timestamp="2017-03-16T21:33:52" hostname="Epicodus-6C.local" time="0.003">
+<testsuite name="GameTest" tests="3" skipped="0" failures="1" errors="0" timestamp="2017-03-16T22:07:06" hostname="Epicodus-6C.local" time="0.003">
   <properties/>
   <testcase name="newGame_getWord_cat" classname="GameTest" time="0.001"/>
-  <testcase name="newGame_getArrayListAnswerLetters_ArrayList" classname="GameTest" time="0.001">
-    <failure message="java.lang.AssertionError: expected:&lt;[cat]&gt; but was:&lt;[]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[cat]&gt; but was:&lt;[]&gt;
+  <testcase name="newGame_getArrayListAnswerLetters_ArrayList" classname="GameTest" time="0.002">
+    <failure message="java.lang.AssertionError: expected:&lt;[cat]&gt; but was:&lt;[dog]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[cat]&gt; but was:&lt;[dog]&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
