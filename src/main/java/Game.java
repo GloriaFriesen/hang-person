@@ -14,11 +14,11 @@ public class Game {
     return mWord;
   }
 
-  public ArrayList<String> getAnswerLetters() {
-    ArrayList<String> stringAnswerLetters = new ArrayList<String>();
-    stringAnswerLetters.add(mWord);
-    return stringAnswerLetters;
-  }
+  // public ArrayList<String> getAnswerLetters() {
+  //   ArrayList<String> stringAnswerLetters = new ArrayList<String>();
+  //   stringAnswerLetters.add(mWord);
+  //   return stringAnswerLetters;
+  // }
 
   public String[] splitWord() {
     String[] letters = mWord.split("");

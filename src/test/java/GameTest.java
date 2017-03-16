@@ -18,13 +18,13 @@ public class GameTest {
     assertEquals("cat", testGame.getWord());
   }
 
-  @Test
-  public void getAnswerLetters_getArrayListAnswerWord_ArrayList() {
-    Game testGame = new Game("cat");
-    ArrayList<String> expectedOutput = new ArrayList<String>();
-    expectedOutput.add("cat");
-    assertEquals(expectedOutput, testGame.getAnswerLetters());
-  }
+  // @Test
+  // public void getAnswerLetters_getArrayListAnswerWord_ArrayList() {
+  //   Game testGame = new Game("cat");
+  //   ArrayList<String> expectedOutput = new ArrayList<String>();
+  //   expectedOutput.add("cat");
+  //   assertEquals(expectedOutput, testGame.getAnswerLetters());
+  // }
 
   @Test
   public void splitWord_splitWordintoLetterArray_Array() {

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GameTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-03-16T23:00:04" hostname="Epicodus-6C.local" time="0.003">
+<testsuite name="GameTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-03-16T23:19:50" hostname="Epicodus-6C.local" time="0.003">
   <properties/>
   <testcase name="newGame_getWord_cat" classname="GameTest" time="0.001"/>
-  <testcase name="splitWord_splitWordintoLetterArray_Array" classname="GameTest" time="0.001"/>
-  <testcase name="getAnswerLetters_getArrayListAnswerWord_ArrayList" classname="GameTest" time="0.001"/>
+  <testcase name="splitWord_splitWordintoLetterArray_Array" classname="GameTest" time="0.002"/>
   <testcase name="newGame_instantiatesCorrectly" classname="GameTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
